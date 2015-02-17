@@ -1,0 +1,39 @@
+<scene>
+<antialiasing>1</antialiasing>
+<winx>1024</winx>
+<winy>768</winy>
+<object>
+	<type>hyperboloid</type>
+	<cte>1</cte>
+	<color>0xDDFF9E</color>
+        <pos_x>1500</pos_x>
+        <pos_y>-10</pos_y>
+        <pos_z>-70</pos_z>
+        <radius>30</radius>
+        <rotation_x>0</rotation_x>
+        <rotation_y>0</rotation_y>
+        <rotation_z>0</rotation_z>
+        <brightness>0</brightness>
+        <limit_x>30</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+        <refract_index>0</refract_index>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+        <pos_x>-500</pos_x>
+        <pos_y>-10</pos_y>
+        <pos_z>-90</pos_z>
+        <brightness>1</brightness>
+</object>
+<object>
+	<type>light</type>
+	<color>0x99B3FF</color>
+        <pos_x>640</pos_x>
+        <pos_y>240</pos_y>
+        <pos_z>-1000</pos_z>
+        <brightness>1</brightness>
+</object>
+</scene>

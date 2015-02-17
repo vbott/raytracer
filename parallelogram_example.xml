@@ -1,0 +1,46 @@
+<scene>
+<antialiasing>1</antialiasing>
+<winx>1024</winx>
+<winy>768</winy>
+<object>
+	<type>parallelogram</type>
+	<color>0xFF0000</color>
+	<pos>-650, -100, -10</pos>
+        <brightness>0</brightness>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+        <refract_index>0</refract_index>
+	<v1>400, 40, 0</v1>
+	<v2>60, 40, 0</v2>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+	<pos>100, 0, 20</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+	<pos>130, 0, 20</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+	<pos>100, 0, 20</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+	<pos>0, 0, 20</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+	<type>light</type>
+	<color>0x99B3FF</color>
+	<pos>640, 240, -1000</pos>
+        <brightness>1</brightness>
+</object>
+</scene>

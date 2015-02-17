@@ -1,0 +1,74 @@
+<scene>
+<antialiasing>1</antialiasing>
+<winx>1024</winx>
+<winy>768</winy>
+<eye>0, 0, 0</eye>
+<object>
+        <type>plan</type>
+        <color>0xFFFFFF</color>
+        <pos>-500, -50, -50</pos>
+</object>
+<object>
+        <type>plan</type>
+        <color>0xFFFFFF</color>
+        <pos>-5, 100, -50</pos>
+	<rotation>90, 0, 0</rotation>
+</object>
+<object>
+        <type>cylinder</type>
+	<radius>3</radius>
+        <color>0x13B4C1</color>
+        <pos>510, 20, -30</pos>
+</object>
+<object>
+        <type>cylinder</type>
+	<radius>3</radius>
+        <color>0x13B4C1</color>
+        <pos>710, 20, -30</pos>
+</object>
+<object>
+        <type>sphere</type>
+	<radius>20</radius>
+        <color>0xFFFFFF</color>
+        <pos>610, -20, -30</pos>
+        <rotation>5, 0, 0</rotation>
+</object>
+<object>
+        <type>sphere</type>
+	<radius>20</radius>
+        <color>0xFFFFFF</color>
+        <pos>610, -100, 20</pos>
+        <rotation>5, 0, 0</rotation>
+</object>
+<object>
+        <type>sphere</type>
+        <radius>20</radius>
+        <color>0xFFFFFF</color>
+        <pos>610, 50, 40</pos>
+        <rotation>5, 0, 0</rotation>
+</object>
+<object>
+        <type>cylinder</type>
+	<radius>3</radius>
+        <color>0x13B4C1</color>
+        <pos>410, -40, -30</pos>
+</object>
+<object>
+        <type>cylinder</type>
+        <radius>3</radius>
+        <color>0x13B4C1</color>
+        <pos>610, -100, -30</pos>
+</object>
+<object>
+        <type>light</type>
+	<color>0x99B3FF</color>
+	<pos>310, -60, -30</pos>
+	<brightness>1</brightness>
+</object>
+<object>
+        <type>light</type>
+	<color>0x99B3FF</color>
+	<pos>710, -60, -30</pos>
+	<brightness>1</brightness>
+</object>
+</scene>

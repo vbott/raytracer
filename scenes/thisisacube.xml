@@ -1,0 +1,141 @@
+<scene>
+<antialiasing>2</antialiasing>
+<winx>1024</winx>
+<winy>768</winy>
+<eye>100, -1000, -100</eye>
+<eye_rotation>0, 0, 12</eye_rotation>
+<object>
+	<type>plan</type>
+	<color>0xFF0000</color>
+	<pos>0, -200, -500</pos>
+	<img>textures/wood.jpg</img>
+</object>
+<object>
+	<type>parallelogram</type>
+	<color>0xFF0000</color>
+	<pos>3600, -200, -500</pos>
+	<radius>50</radius>
+	<rotation>0, 90, 0</rotation>
+        <brightness>0</brightness>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+        <refract_index>0</refract_index>
+	<v1>1, 300, 0</v1>
+	<v2>300, 1, 0</v2>
+</object>
+<object>
+        <type>parallelogram</type>
+        <color>0xFF0000</color>
+        <pos>3900, -200, -500</pos>
+        <radius>50</radius>
+        <rotation>0, 90, 0</rotation>
+        <brightness>0</brightness>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+        <refract_index>0</refract_index>
+        <v1>1, 300, 0</v1>
+        <v2>300, 1, 0</v2>
+</object>
+<object>
+	<type>light</type>
+	<color>0x99B3FF</color>
+	<pos>3650, -3500, -1000</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+	<type>light</type>
+	<color>0x99B3FF</color>
+	<pos>3650, -6500, -1000</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+	<type>parallelogram</type>
+	<color>0xFF0000</color>
+	<pos>3600, -200, -500</pos>
+	<rotation>0, 0, 0</rotation>
+        <brightness>0</brightness>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+        <refract_index>0</refract_index>
+	<v1>1, 300, 0</v1>
+	<v2>300, 1, 0</v2>
+</object>
+<object>
+	<type>parallelogram</type>
+	<color>0xFF0000</color>
+	<pos>3600, -200, 100</pos>
+	<rotation>0, 0, 0</rotation>
+        <brightness>0</brightness>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+        <refract_index>0</refract_index>
+	<v1>1, 300, 0</v1>
+	<v2>300, 1, 0</v2>
+</object>
+<object>
+	<type>parallelogram</type>
+	<color>0x150000</color>
+	<pos>3600, -200, -500</pos>
+	<rotation>90, 0, 90</rotation>
+        <brightness>0</brightness>
+        <reflection>0.3</reflection>
+        <transparency>0</transparency>
+        <refract_index>0</refract_index>
+	<v1>1, 300, 0</v1>
+	<v2>300, 1, 0</v2>
+</object>
+<object>
+	<type>parallelogram</type>
+	<color>0xFF0000</color>
+	<pos>3600, 400, -500</pos>
+	<rotation>90, 0, 90</rotation>
+        <brightness>0</brightness>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+        <refract_index>0</refract_index>
+	<v1>1, 300, 0</v1>
+	<v2>300, 1, 0</v2>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+	<pos>100, 0, 20</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+	<pos>130, 0, 20</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+	<pos>3600, -50, -400</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+	<pos>3600, 340, -1500</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+	<pos>3900, -440, 500</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+	<pos>3800, -540, 800</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+	<type>light</type>
+	<color>0x99B3FF</color>
+	<pos>3800, 240, -1000</pos>
+        <brightness>1</brightness>
+</object>
+</scene>

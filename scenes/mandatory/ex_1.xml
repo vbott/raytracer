@@ -1,0 +1,31 @@
+<scene>
+<antialiasing>1</antialiasing>
+<winx>1024</winx>
+<winy>768</winy>
+<eye>10, 50, 100</eye>
+<object>
+        <type>sphere</type>
+        <color>0x12FC9C</color>
+        <pos>800, -30, 120</pos>
+        <radius>40</radius>
+        <rotation>0, 0, 10</rotation>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+        <refract_index>0</refract_index>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+        <pos>170, 0, 870</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+        <type>light</type>
+        <color>0x99B3FF</color>
+        <pos>640, 240, 60</pos>
+        <brightness>1</brightness>
+</object>
+</scene>

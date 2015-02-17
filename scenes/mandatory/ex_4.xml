@@ -1,0 +1,30 @@
+<scene>
+<antialiasing>1</antialiasing>
+<winx>1024</winx>
+<winy>768</winy>
+<eye>0, 0, 0</eye>
+<object>
+        <type>plan</type>
+        <color>0xFFFFFF</color>
+        <pos>-500, -50, -50</pos>
+</object>
+<object>
+        <type>cone</type>
+	<radius>1</radius>
+        <color>0x13B4C1</color>
+        <pos>510, 20, -30</pos>
+        <rotation>5, 0, 0</rotation>
+</object>
+<object>
+        <type>light</type>
+        <color>0x99B3FF</color>
+        <pos>710, -60, -30</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+        <type>light</type>
+	<color>0x99B3FF</color>
+	<pos>310, -60, -30</pos>
+	<brightness>1</brightness>
+</object>
+</scene>

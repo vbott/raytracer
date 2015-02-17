@@ -1,0 +1,214 @@
+<scene>
+<antialiasing>1</antialiasing>
+<winx>1024</winx>
+<winy>768</winy>
+<eye>-310, 0, 200</eye>
+<eye_rotation>0, 13, 0</eye_rotation>
+<object>
+        <type>parallelogram</type>
+        <color>0xFFFFFF</color>
+        <pos>550, 130, -100</pos>
+        <v1>130, 0, 100</v1>
+        <v2>0, 250, 0</v2>
+        <rotation>0, 0, 90</rotation>
+	<material>1</material>
+</object>
+<object>
+        <type>parallelogram</type>
+        <color>0xFFFFFF</color>
+        <pos>550, -130, -360</pos>
+        <v1>130, 0, 100</v1>
+        <v2>0, 130, 0</v2>
+        <rotation>0, 90, 0</rotation>
+        <material>1</material>
+</object>
+<object>
+        <type>parallelogram</type>
+        <color>0x10AFDD</color>
+        <pos>650, 100, -99</pos>
+        <v1>10, 0, 100</v1>
+        <v2>0, 10, 0</v2>
+	<transparency>0.5</transparency>
+        <rotation>0, 0, 90</rotation>
+</object>
+<object>
+        <type>torus</type>
+        <color>0xEE77DD</color>
+        <pos>850, -100, -97</pos>
+	<radius>7</radius>
+	<cte>3</cte>
+        <rotation>90, 90, 0</rotation>
+</object>
+<object>
+        <type>torus</type>
+        <color>0xDD88DD</color>
+        <pos>850, -100, -90</pos>
+        <radius>7</radius>
+        <cte>3</cte>
+        <rotation>90, 90, 10</rotation>
+</object>
+<object>
+        <type>torus</type>
+        <color>0xFFDDDD</color>
+        <pos>850, -100, -85</pos>
+        <radius>7</radius>
+        <cte>3</cte>
+        <rotation>90, 75, 5</rotation>
+</object>
+<object>
+        <type>torus</type>
+        <color>0xFFFFFF</color>
+        <pos>850, -100, -80</pos>
+        <radius>7</radius>
+        <cte>3</cte>
+        <rotation>75, 75, 5</rotation>
+</object>
+<object>
+        <type>parallelogram</type>
+        <color>0x10AFDD</color>
+        <pos>590, 40, -99</pos>
+        <v1>50, 0, 100</v1>
+        <v2>0, 90, 0</v2>
+        <rotation>0, 0, 90</rotation>
+	<transparency>0.5</transparency>
+</object>
+<object>
+        <type>plan</type>
+        <color>0xCC6633</color>
+        <pos>-600, -600, 300</pos>
+        <rotation>0, 0, 0</rotation>
+        <material>0</material>
+</object>
+<object>
+        <type>plan</type>
+        <color>0xFFFFFF</color>
+        <pos>-600, -600, -299</pos>
+        <rotation>0, 0, 90</rotation>
+	<material>3</material>
+</object>
+<object>
+        <type>parallelogram</type>
+        <color>0x551510</color>
+        <pos>590, -85, -99</pos>
+        <v1>12, 0, 100</v1>
+        <v2>0, 90, 0</v2>
+        <rotation>0, 0, 90</rotation>
+        <transparency>0.5</transparency>
+</object>
+<object>
+	<type>paraboloid</type>
+	<cte>60</cte>
+	<color>0x10AFDD</color>
+	<pos>800, -10, -100</pos>
+        <radius>30</radius>
+        <brightness>0</brightness>
+        <limit_x>30</limit_x>
+        <limit_y>100</limit_y>
+	<transparency>0.1</transparency>
+	<material>2</material>
+</object>
+<object>
+        <type>cylinder</type>
+        <color>0x009EDD</color>
+        <pos>770, 70, -100</pos>
+        <radius>10</radius>
+        <reflection>0.5</reflection>
+        <limit_x>40</limit_x>
+        <limit_y>100</limit_y>
+        <transparency>0.4</transparency>
+</object>
+<object>
+        <type>cylinder</type>
+        <color>0x009EDD</color>
+        <pos>700, 100, -100</pos>
+        <radius>10</radius>
+        <reflection>0.5</reflection>
+        <limit_x>40</limit_x>
+        <limit_y>100</limit_y>
+        <transparency>0.4</transparency>
+</object>
+<object>
+        <type>cylinder</type>
+        <color>0x331111</color>
+        <pos>700, 100, -100</pos>
+        <radius>10</radius>
+	<reflection>0.5</reflection>
+        <limit_x>25</limit_x>
+        <limit_y>100</limit_y>
+        <transparency>0.2</transparency>
+</object>
+<object>
+        <type>sphere</type>
+	<img>textures/rice.tga</img>
+        <pos>800, -10, -80</pos>
+        <radius>20</radius>
+        <brightness>0</brightness>
+        <limit_x>30</limit_x>
+        <limit_y>100</limit_y>
+	<bump>0.1</bump>
+</object>
+<object>
+        <type>sphere</type>
+	<img>textures/rice.tga</img>
+        <pos>800, -23, -80</pos>
+        <radius>15</radius>
+        <brightness>0</brightness>
+        <limit_x>30</limit_x>
+        <limit_y>0</limit_y>
+	<bump>0.1</bump>
+</object>
+<object>
+        <type>cylinder</type>
+	<radius>1</radius>
+        <color>0xFFFFFF</color>
+	<rotation>0, 90, 0</rotation>
+	<limit_y>150</limit_y>
+	<limit_x>0</limit_x>
+        <pos>600, -100, -98</pos>
+</object>
+<object>
+        <type>sphere</type>
+        <radius>40</radius>
+        <color>0x118888</color>
+        <rotation>0, 90, 10</rotation>
+        <pos>1330, 125, -10</pos>
+        <reflection>0.3</reflection>
+</object>
+<object>
+        <type>sphere</type>
+        <radius>40</radius>
+        <color>0x545874</color>
+        <rotation>0, 0, 10</rotation>
+        <pos>1330, 0, 30</pos>
+        <reflection>0.3</reflection>
+</object>
+<object>
+        <type>sphere</type>
+        <radius>30</radius>
+        <color>0x993399</color>
+        <rotation>0, 90, 10</rotation>
+        <pos>1330, -125, -10</pos>
+	<reflection>0.3</reflection>
+</object>
+<object>
+        <type>cylinder</type>
+	<radius>1</radius>
+        <color>0xFFFFFF</color>
+	<rotation>0, 90, 1</rotation>
+	<limit_y>150</limit_y>
+	<limit_x>0</limit_x>
+        <pos>600, -95, -98</pos>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+	<pos>800, 10, -30</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+        <pos>530, 20, 10</pos>
+        <brightness>2</brightness>
+</object>
+</scene>

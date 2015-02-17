@@ -1,0 +1,74 @@
+<scene>
+<antialiasing>1</antialiasing>
+<winx>1024</winx>
+<winy>768</winy>
+<eye>-500, 0, 0</eye>
+<object>
+        <type>plan</type>
+        <color>0xFFFFFF</color>
+        <pos>3500, 0, -100</pos>
+	<rotation>-75, 0, 0</rotation>
+        <reflection>0.7</reflection>
+        <transparency>0.0</transparency>
+</object>
+<object>
+        <type>plan</type>
+        <color>0xFFFFFF</color>
+        <pos>3500, 0, -100</pos>
+	<rotation>75, 0, 0</rotation>
+        <reflection>0.7</reflection>
+        <transparency>0.0</transparency>
+</object>
+<object>
+        <type>sphere</type>
+        <color>0x99BB99</color>
+        <pos>4500, 0, 900</pos>
+	<rotation>0, 0, 0</rotation>
+	<radius>250</radius>
+        <reflection>0.7</reflection>
+        <transparency>0.0</transparency>
+</object>
+<object>
+        <type>sphere</type>
+        <color>0xBBBB55</color>
+        <pos>6000, 0, 100</pos>
+	<rotation>0, 0, 0</rotation>
+	<radius>250</radius>
+        <reflection>0.0</reflection>
+        <transparency>0.0</transparency>
+</object>
+<object>
+        <type>torus</type>
+        <color>0x99BB99</color>
+	<noise>0x45AA45</noise>
+        <pos>6000, -200, 200</pos>
+	<rotation>0, 0, 0</rotation>
+	<radius>200</radius>
+	<cte>200</cte>
+        <reflection>0.0</reflection>
+        <transparency>0.0</transparency>
+	<material>2</material>
+</object>
+<object>
+        <type>torus</type>
+        <color>0x99BB99</color>
+        <pos>6000, 300, 200</pos>
+	<rotation>0, 0, 90</rotation>
+	<radius>200</radius>
+	<cte>200</cte>
+        <reflection>0.7</reflection>
+        <transparency>0.0</transparency>
+</object>
+<object>
+        <type>light</type>
+        <color>0x2266DD</color>
+        <pos>2600, 0, 900</pos>
+        <brightness>9</brightness>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+        <pos>6200, 0, 900</pos>
+        <brightness>1</brightness>
+</object>
+</scene>

@@ -1,0 +1,27 @@
+<scene>
+<object>
+        <type>sphere</type>
+        <color>0xFF00FF</color>
+        <pos_x>200</pos_x>
+        <pos_y>0</pos_y>
+        <pos_z>0</pos_z>
+        <radius>100</radius>
+        <rotation_x>0</rotation_x>
+        <rotation_y>0</rotation_y>
+        <rotation_z>0</rotation_z>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <mirror>0</mirror>
+        <transparency>0</transparency>
+        <refract_index>0</refract_index>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+        <pos_x>0</pos_x>
+        <pos_y>240</pos_y>
+        <pos_z>-100</pos_z>
+        <brightness>1</brightness>
+</object>
+</scene>

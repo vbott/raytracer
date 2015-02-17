@@ -1,0 +1,95 @@
+<scene>
+<antialiasing>1</antialiasing>
+<winx>1024</winx>
+<winy>768</winy>
+<eye>-2500, 0, -99</eye>
+<object>
+        <type>plan</type>
+        <color>0xFFFFFF</color>
+        <pos>3500, 0, -100</pos>
+	<rotation>-75, 0, 0</rotation>
+        <reflection>0.7</reflection>
+        <transparency>0.0</transparency>
+</object>
+<object>
+        <type>plan</type>
+        <color>0xFFFFFF</color>
+        <pos>3500, 0, -100</pos>
+	<rotation>75, 0, 0</rotation>
+        <reflection>0.7</reflection>
+        <transparency>0.0</transparency>
+</object>
+<object>
+        <type>sphere</type>
+        <color>0xFFFFFF</color>
+        <pos>4500, 0, 900</pos>
+	<rotation>0, 0, 0</rotation>
+	<radius>250</radius>
+        <reflection>0.7</reflection>
+        <transparency>0.0</transparency>
+</object>
+<object>
+        <type>sphere</type>
+        <color>0xFFFFFF</color>
+        <pos>6000, 0, 100</pos>
+	<rotation>0, 0, 0</rotation>
+	<radius>250</radius>
+        <reflection>0.0</reflection>
+        <transparency>0.0</transparency>
+</object>
+<object>
+	<type>torus</type>
+	<color>0x99BB99</color>
+	<noise>0x45AA45</noise>
+	<pos>6000, -200, 200</pos>
+	<rotation>0, 0, 120</rotation>
+	<radius>200</radius>
+	<cte>200</cte>
+	<reflection>0.0</reflection>
+	<transparency>0.0</transparency>
+	<material>1</material>
+</object>
+<object>
+        <type>torus</type>
+        <color>0x99BB99</color>
+        <pos>6000, 300, 200</pos>
+	<rotation>90, 0, 0</rotation>
+	<radius>200</radius>
+	<cte>200</cte>
+        <reflection>0.7</reflection>
+        <transparency>0.0</transparency>
+</object>
+<object>
+	<type>torus</type>
+	<color>0x99BB99</color>
+	<noise>0x45AA45</noise>
+	<pos>3000, -200, 200</pos>
+	<rotation>0, 0, 0</rotation>
+	<radius>200</radius>
+	<cte>200</cte>
+	<reflection>0.0</reflection>
+	<transparency>0.0</transparency>
+	<material>1</material>
+</object>
+<object>
+	<type>cylinder</type>
+	<color>0xFFFFFF</color>
+	<pos>0, 0, 0</pos>
+	<rotation>0, -30, 0</rotation>
+	<radius>20</radius>
+	<reflection>0.0</reflection>
+	<transparency>0.5</transparency>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+        <pos>5700, 0, 100</pos>
+        <brightness>14</brightness>
+</object>
+<object>
+        <type>light</type>
+        <color>0x20B2AA</color>
+        <pos>-2000, 0, 100</pos>
+        <brightness>3</brightness>
+</object>
+</scene>

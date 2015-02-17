@@ -1,0 +1,36 @@
+<scene>
+<antialiasing>1</antialiasing>
+<winx>1024</winx>
+<winy>768</winy>
+<eye>-2500, 0, -99</eye>
+<object>
+        <type>plan</type>
+        <color>0xFFFFFF</color>
+        <pos>3500, 0, -100</pos>
+	<rotation>-75, 0, 0</rotation>
+        <reflection>0.0</reflection>
+        <transparency>0.0</transparency>
+</object>
+<object>
+        <type>plan</type>
+        <color>0xFFFFFF</color>
+        <pos>3500, 0, -100</pos>
+	<rotation>75, 0, 0</rotation>
+        <reflection>0.0</reflection>
+        <transparency>0.0</transparency>
+</object>
+<object>
+        <type>parallelogram</type>
+        <color>0xFFFFFF</color>
+	<v1>10, 10, 10</v1>
+	<v2>10, 10, 10</v2>
+        <pos>6000 0, 0</pos>
+        <reflection>0.5</reflection>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+        <pos>3000 0, 0</pos>
+        <brightness>14</brightness>
+</object>
+</scene>

@@ -1,0 +1,111 @@
+<scene>
+<antialiasing>4</antialiasing>
+<winx>1024</winx>
+<winy>768</winy>
+<eye>-200, 100, 0</eye>
+<eye_rotation>0, 0, -7</eye_rotation>
+<object>
+	<type>sphere</type>
+	<color>0x12FC9C</color>
+	<pos>900, 100, 80</pos>
+        <radius>40</radius>
+	<rotation>0, 0, 0</rotation>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+</object>
+<object>
+	<type>sphere</type>
+	<color>0x0000FF</color>
+	<pos>900, 0, 40</pos>
+        <radius>60</radius>
+	<rotation>0, 0, 0</rotation>
+        <brightness>0</brightness>
+        <limit_x>30</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0</reflection>
+        <transparency>0.6</transparency>
+</object>
+<object>
+	<type>sphere</type>
+	<color>0x12FC9C</color>
+	<pos>600, 180, 80</pos>
+        <radius>60</radius>
+	<rotation>0, 0, 0</rotation>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+	<negative>1</negative>
+</object>
+<object>
+	<type>plan</type>
+	<color>0xFF0000</color>
+	<pos>0, 180, 0</pos>
+	<rotation>90, 0, 0</rotation>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+</object>
+<object>
+	<type>plan</type>
+	<color>0x0000FF</color>
+	<pos>0, -180, 0</pos>
+	<rotation>90, 0, 0</rotation>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+</object>
+<object>
+	<type>plan</type>
+	<color>0xFFFFFF</color>
+	<pos>1100, 0, 0</pos>
+	<rotation>0, 90, 0</rotation>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+</object>
+<object>
+	<type>plan</type>
+	<color>0xFF00FF</color>
+	<pos>0, 0, -80</pos>
+	<rotation>0, 0, 0</rotation>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+</object>
+<object>
+	<type>plan</type>
+	<color>0xFFFF</color>
+	<pos>0, 0, 200</pos>
+	<rotation>0, 0, 0</rotation>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0</reflection>
+        <transparency>0</transparency>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+	<pos>100, 0, 70</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+	<type>light</type>
+	<color>0xFF9000</color>
+	<pos>500, 240, 60</pos>
+        <brightness>2</brightness>
+</object>
+</scene>

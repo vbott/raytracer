@@ -1,0 +1,139 @@
+<scene>
+<antialiasing>2</antialiasing>
+<winx>4000</winx>
+<winy>3000</winy>
+<thread>8</thread>
+<eye>0, 100, 150</eye>
+<eye_rotation>0, 7, -7</eye_rotation>
+<object>
+	<type>plan</type>
+        <color>0x5555FF</color>
+        <noise>0x7F457F</noise>
+        <pos>0, 0, -80</pos>
+        <radius>0</radius>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0.2</reflection>
+	<material>3</material>
+</object>
+<object>
+	<type>plan</type>
+        <color>0xFFFFFF</color>
+        <noise>0x7F457F</noise>
+        <pos>0, 0, 200</pos>
+        <radius>0</radius>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0</reflection>
+</object>
+<object>
+	<type>plan</type>
+        <color>0xFFFFFF</color>
+        <noise>0x7F457F</noise>
+        <pos>0, 200, 0</pos>
+        <radius>0</radius>
+        <rotation>90, 0, 0</rotation>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>1</reflection>
+</object>
+<object>
+	<type>plan</type>
+        <color>0xFFFFFF</color>
+        <noise>0x7F457F</noise>
+        <pos>0, -200, 0</pos>
+        <radius>0</radius>
+        <rotation>90, 0, 0</rotation>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>1</reflection>
+</object>
+<object>
+	<type>plan</type>
+        <color>0xFFFFFF</color>
+        <noise>0x7F457F</noise>
+        <pos>1500, 0, 0</pos>
+        <radius>0</radius>
+        <rotation>0, 90, 0</rotation>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>1</reflection>
+</object>
+<object>
+	<type>plan</type>
+        <color>0xFFFFFF</color>
+        <noise>0x7F457F</noise>
+        <pos>0, 0, 0</pos>
+        <radius>0</radius>
+        <rotation>0, 90, 0</rotation>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>1</reflection>
+</object>
+<object>
+	<type>sphere</type>
+	<color>0xFFFFFF</color>	
+        <pos>1200, 0, 0</pos>
+        <radius>60</radius>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0.5</reflection>
+        <transparency>0</transparency>
+        <refract_index>0</refract_index>
+</object>
+<object>
+	<type>sphere</type>
+	<color>0x5555FF</color>	
+	<noise>0x32327F</noise>	
+        <pos>1000, -100, 0</pos>
+        <radius>60</radius>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0.4</reflection>
+        <transparency>0</transparency>
+        <refract_index>1</refract_index>
+	<bump>0.08</bump>
+	<material>0</material>
+</object>
+<object>
+	<type>sphere</type>
+	<color>0x5555FF</color>	
+	<noise>0x32327F</noise>	
+        <pos>1000, 100, 0</pos>
+        <radius>60</radius>
+        <brightness>0</brightness>
+        <limit_x>-1</limit_x>
+        <limit_y>-1</limit_y>
+        <reflection>0.6</reflection>
+        <transparency>0</transparency>
+        <refract_index>1</refract_index>
+	<bump>0.12</bump>
+	<material>0</material>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+        <pos>1000, 0, 180</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+        <type>light</type>
+        <color>0xFFFFFF</color>
+        <pos>800, -180, 180</pos>
+        <brightness>1</brightness>
+</object>
+<object>
+	<type>light</type>
+	<color>0x99B3FF</color>
+        <pos>640, 180, 0</pos>
+        <brightness>1</brightness>
+</object>
+</scene>
